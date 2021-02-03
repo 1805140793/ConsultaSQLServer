@@ -66,4 +66,10 @@
         android:layout_height="wrap_content"
         android:text="@string/button_text_eliminarr" />
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_consultar" />
+
 </LinearLayout>
