@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ConsultaSQLServer</string>
+    <string name="textview_text_titulo">Consultas SQL Server</string>
+
+    <string name="edittex_hint_id">Ingrese un Identificador</string>
+    <string name="edittex_hint_producto">Producto</string>
+    <string name="edittex_hint_precio">Precio</string>
+
+    <string name="button_text_consultar">Consultar</string>
+    <string name="button_text_insertar">Insertar</string>
+    <string name="button_text_actualizar">Actualizar</string>
+    <string name="button_text_eliminarr">Eliminar</string>
+</resources>

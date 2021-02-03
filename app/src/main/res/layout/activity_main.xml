@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textview_text_titulo"
+        android:textColor="#800808"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_Identificador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_id"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_Producto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_producto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edt_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/edittex_hint_precio"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btn_Consulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickconsultarProducto"
+        android:text="@string/button_text_consultar" />
+
+    <Button
+        android:id="@+id/btn_Insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clickInsertarProducto"
+        android:text="@string/button_text_insertar" />
+
+    <Button
+        android:id="@+id/btn_actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_actualizar" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text_eliminarr" />
+
+</LinearLayout>
